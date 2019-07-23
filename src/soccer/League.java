@@ -78,6 +78,8 @@ public class League {
             familyNameFirst.append(name[0]);
 
             System.out.println(familyNameFirst);
+            familyNameFirst.delete(0, familyNameFirst.length());
+
         }
         System.out.println("-------------------------------------------------------------------");
 
