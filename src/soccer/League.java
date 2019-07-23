@@ -69,6 +69,18 @@ public class League {
         }
         System.out.println("-------------------------------------------------------------------");
 
+        for (Player thePlayer: team1.playerArray){
+            String name[] = thePlayer.playerName.split(" ");
+
+            StringBuilder familyNameFirst = new StringBuilder();
+            familyNameFirst.append(name[1]);
+            familyNameFirst.append(", ");
+            familyNameFirst.append(name[0]);
+
+            System.out.println(familyNameFirst);
+        }
+        System.out.println("-------------------------------------------------------------------");
+
 
     }
 }
