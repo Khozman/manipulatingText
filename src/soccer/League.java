@@ -62,6 +62,8 @@ public class League {
         for (Player thePlayer: team2.playerArray){
             if(thePlayer.playerName.matches(".*Sab.*")) {
                 System.out.println("Found " + thePlayer.playerName);
+                System.out.println("-------------------------------------------------------------------");
+                System.out.println("Last name is " + thePlayer.playerName.split(" ")[1]);
             }
 
         }
